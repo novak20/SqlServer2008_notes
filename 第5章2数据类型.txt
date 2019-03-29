@@ -1,0 +1,16 @@
+char和varchar  :汉字点两个字节，英文、数字或字符占一个               字节
+  性别：男   女
+char(2)  或者是varchar(2)   
+
+nchar和nvarchar:无论是汉字还是英文，数字或字符都占一个
+
+  性别：男   女
+nchar(1)或者nvarchar(1)
+
+
+固定长度与非固定长度:
+身份证号:18位长度固定  ，char(18)或nchar(18)
+住址：                 varchar(255)或nvarchar(255)
+如果住 址中存在汉字、数字，nvarchar(255)，
+
+小说或新闻：text,或ntext
